@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F0F2F5;
+    
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 200px;
+    padding-top: 130px;
+    gap: 40px;
+}
+
+.container h2 {
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1c1e21;
+    text-align: left;
+}
+
+.logo {
+    display: block;
+    max-width: 100%;
+    height: 106px;
+    margin-left: -28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F5F5F5;
+    background-color: #FFF;
+    border-radius: 8px;
+    width: 400px;
+    height: 350px;
+      
+}
+
+form #email, #password{
+    
+    border: 1px solid #F5F5F5;
+    
+    border-radius: 7px;
+    width: 330px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 17px;
+    padding: 10px 16px;
+    
+}
+
+form .entrar {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1877F2;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    width: 360px;
+    height: 50px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 200ms cubic-bezier(.08, .52, .52,1);
+}
+
+form .entrar:hover {
+    background-color: #166fe5;
+}
+
+form a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    width: 350px;
+    font-size: 16px;
+    color: #1877f2;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #DADDE1;
+    padding-bottom: 15px;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form .criar-conta {
+    width: 165px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border:1px solid transparent;
+    background-color: #42B72A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 200ms cubic-bezier(.08, .52, .52,1);
+}
+
+form .criar-conta:hover{
+    background-color: #36A420;
+}
+
+.formulario p {
+    margin-top: 20px;
+}
+
+.formulario p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.formulario p a:hover {
+    text-decoration: underline;
+
+}
+
+@media (max-width: 900px){
+    .container {
+        grid-template-columns: 1fr;
+        margin: -28px auto;
+    }
+
+    .logo {
+        margin: -28px auto;
+        
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    
+}
