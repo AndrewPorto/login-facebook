@@ -137,6 +137,14 @@ form .criar-conta:hover{
         grid-template-columns: 1fr;
         margin: -28px auto;
     }
+    .container div > h2 {
+        
+        max-width: 80%;
+        margin: 10px auto;
+        text-align: justify;
+        
+        
+    }
 
     .logo {
         margin: -28px auto;
